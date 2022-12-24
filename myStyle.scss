@@ -1,0 +1,65 @@
+.ticket {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 390px;
+    width: 100%;
+    margin: 150px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fbfbfb;
+    box-shadow: 2px 2px 15px 0px #ab9b0d;
+  
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 5px;
+      height: 6px;
+      max-width: 390px;
+      width: calc(100% - 10px);
+    }
+  
+    &:before {
+      top: -5px;
+      background: radial-gradient(
+          circle,
+          transparent,
+          transparent 50%,
+          #fbfbfb 50%,
+          #fbfbfb 100%
+        ) -7px -8px / 16px 16px repeat-x;
+    }
+  
+    &:after {
+      bottom: -5px;
+      background: radial-gradient(
+          circle,
+          transparent,
+          transparent 50%,
+          #fbfbfb 50%,
+          #fbfbfb 100%
+        ) -7px -2px / 16px 16px repeat-x;
+    }
+    // &.dots{
+    //     left: -5px;
+    //     background: radial-gradient(
+    //         circle,
+    //         transparent,
+    //         transparent 50%,
+    //         #fbfbfb 50%,
+    //         #fbfbfb 100%
+    //       ) -7px -2px / 16px 16px repeat-y;
+      
+    // }
+    // &.dotsRight{
+    //     right: 390px;
+    //     background: radial-gradient(
+    //         circle,
+    //         transparent,
+    //         transparent 50%,
+    //         #fbfbfb 50%,
+    //         #fbfbfb 100%
+    //       ) -7px -2px / 16px 16px repeat-y;
+      
+    // }
+  }
