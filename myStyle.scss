@@ -20,18 +20,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-.container {
-  box-shadow: 10px 50px 5px black;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(242, 225, 188);
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  opacity: 0.9;
-  position: relative;
-}
 
 form {
   display: flex;
@@ -76,11 +64,11 @@ button {
     box-sizing: border-box;
     max-width: 390px;
     width: 100%;
-    margin: 150px auto 0;
     padding: 20px;
     border-radius: 10px;
     background: #fbfbfb;
     box-shadow: 2px 2px 15px 0px #2a2925;
+    opacity: .9;
   
     &:before,
     &:after {
